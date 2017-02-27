@@ -1,0 +1,11 @@
+
+P.B. 2009/05/06
+=======================================
+gestion de l'acces aux sous-repertoires temporaires en placant
+dans le repertoire tmp un fichier .htaccess
+avec
+Options Indexes
+
+Ainsi un
+wget -r -Agif --no-parent -nH --cut-dirs=4 http://webservices.ipsl.jussieu.fr/monitoring/tmp/fegg_plot01_XXXXXX_prod/images/
+fonctionne

@@ -1,0 +1,54 @@
+8
+
+dir
+4027
+http://jquery-ui.googlecode.com/svn/branches/labs/spinner/demos/switchClass
+http://jquery-ui.googlecode.com/svn
+
+
+
+2009-03-03T11:01:55.233245Z
+2180
+rdworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a1defee3-d24d-0410-b1e3-3171fe540af7
+
+default.html
+file
+
+
+
+
+2010-09-20T14:09:09.000000Z
+f6cbf8b9f343db117b72fc29d72a6cc2
+2009-03-03T11:01:55.233245Z
+2180
+rdworth
+has-props
+
+index.html
+file
+
+
+
+
+2010-09-20T14:09:09.000000Z
+16f8deb44cca8412dadb2f48655979e1
+2009-03-02T09:32:17.875812Z
+2160
+rdworth
+has-props
+

@@ -1,0 +1,148 @@
+8
+
+dir
+4027
+http://jquery-ui.googlecode.com/svn/branches/labs/spinner/tests/unit
+http://jquery-ui.googlecode.com/svn
+
+
+
+2009-09-06T16:42:50.690543Z
+3199
+scott.gonzalez
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a1defee3-d24d-0410-b1e3-3171fe540af7
+
+testsuite.css
+file
+
+
+
+
+2010-09-20T14:09:04.000000Z
+38529c679b6cc964cedf283272bdcc9e
+2009-07-28T13:44:18.121682Z
+3001
+rdworth
+has-props
+
+resizable
+dir
+
+slider
+dir
+
+core
+dir
+
+tabs
+dir
+
+progressbar
+dir
+
+all_2.html
+file
+
+
+
+
+2010-09-20T14:09:04.000000Z
+7511b0726b20ff3dc28754d8f0133945
+2009-09-06T16:42:50.690543Z
+3199
+scott.gonzalez
+has-props
+
+dialog
+dir
+
+accordion
+dir
+
+selectable
+dir
+
+position
+dir
+
+testsuite.js
+file
+
+
+
+
+2010-09-20T14:09:04.000000Z
+e2c9024fbe126a4792ff3cb967a1a24e
+2009-07-28T13:44:18.121682Z
+3001
+rdworth
+has-props
+
+draggable
+dir
+
+droppable
+dir
+
+defaults.html
+file
+
+
+
+
+2010-09-20T14:09:04.000000Z
+bf77722121f23a01f0e28776fa900371
+2009-09-06T16:42:50.690543Z
+3199
+scott.gonzalez
+has-props
+
+index.html
+file
+
+
+
+
+2010-09-20T14:09:04.000000Z
+f2663d0428d20d8f5eff2f03ad337593
+2009-09-06T16:42:50.690543Z
+3199
+scott.gonzalez
+has-props
+
+sortable
+dir
+
+datepicker
+dir
+
+all.html
+file
+
+
+
+
+2010-09-20T14:09:04.000000Z
+0937e4c4dc3ef720cd0373d013006eda
+2009-09-06T16:42:50.690543Z
+3199
+scott.gonzalez
+has-props
+
+spinner
+dir
+

@@ -1,0 +1,152 @@
+8
+
+dir
+4027
+http://jquery-ui.googlecode.com/svn/branches/labs/spinner/tests/static
+http://jquery-ui.googlecode.com/svn
+
+
+
+2009-07-28T13:44:18.121682Z
+3001
+rdworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a1defee3-d24d-0410-b1e3-3171fe540af7
+
+resizable
+dir
+
+slider
+dir
+
+highlight_error.html
+file
+
+
+
+
+2010-09-20T14:09:08.000000Z
+beb8a2fdbf0c97feea32d855b751cf0f
+2009-02-20T11:40:25.557885Z
+2113
+rdworth
+has-props
+
+overlay.html
+file
+
+
+
+
+2010-09-20T14:09:08.000000Z
+3ad7cf5ba03b6e17c9886ea9afa985f6
+2009-02-20T11:40:25.557885Z
+2113
+rdworth
+has-props
+
+tabs
+dir
+
+progressbar
+dir
+
+dialog
+dir
+
+accordion
+dir
+
+static.js
+file
+
+
+
+
+2010-09-20T14:09:08.000000Z
+8031130a72be99e899d63b0c1e2be341
+2009-01-24T11:51:12.610671Z
+1779
+rdworth
+has-props
+
+selectable
+dir
+
+draggable
+dir
+
+droppable
+dir
+
+index.html
+file
+
+
+
+
+2010-09-20T14:09:08.000000Z
+8baac4ddb4b5a2e9a01bcb1f3c6e54e0
+2009-02-20T11:40:25.557885Z
+2113
+rdworth
+has-props
+
+datepicker
+dir
+
+sortable
+dir
+
+all.html
+file
+
+
+
+
+2010-09-20T14:09:08.000000Z
+53fab6dc7a0be51daa6aecef5b355113
+2009-02-20T11:40:25.557885Z
+2113
+rdworth
+has-props
+
+icons.html
+file
+
+
+
+
+2010-09-20T14:09:08.000000Z
+672c3d31fbcb97e3f561797264cfec3c
+2009-02-20T11:40:25.557885Z
+2113
+rdworth
+has-props
+
+static.css
+file
+
+
+
+
+2010-09-20T14:09:08.000000Z
+20448d04253fdd73ea09a1028ef5bc64
+2009-01-24T12:07:26.544118Z
+1781
+rdworth
+has-props
+

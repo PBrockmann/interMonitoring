@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3245/branches/labs/spinner/tests/unit/resizable
+END
+resizable_events.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3245/branches/labs/spinner/tests/unit/resizable/resizable_events.js
+END
+resizable_tickets.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3245/branches/labs/spinner/tests/unit/resizable/resizable_tickets.js
+END
+resizable_defaults.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3245/branches/labs/spinner/tests/unit/resizable/resizable_defaults.js
+END
+resizable.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3245/branches/labs/spinner/tests/unit/resizable/resizable.html
+END
+resizable_core.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3245/branches/labs/spinner/tests/unit/resizable/resizable_core.js
+END
+resizable_options.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3245/branches/labs/spinner/tests/unit/resizable/resizable_options.js
+END
+resizable_methods.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3245/branches/labs/spinner/tests/unit/resizable/resizable_methods.js
+END

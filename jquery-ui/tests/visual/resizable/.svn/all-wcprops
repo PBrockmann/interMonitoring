@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable
+END
+resizable.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable.html
+END
+resizable_option_aspectRatio_preserve_minHeight_50.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_preserve_minHeight_50.html
+END
+default.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/default.html
+END
+resizable_option_aspectRatio_1.0.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_1.0.html
+END
+resizable_option_aspectRatio_0.5.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_0.5.html
+END
+resizable_option_aspectRatio_preserve_minWidth_50.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_preserve_minWidth_50.html
+END
+resizable_option_aspectRatio_1.5.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_1.5.html
+END
+resizable_ticket_3053.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_ticket_3053.html
+END
+resizable_option_aspectRatio_preserve_w100xh50.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_preserve_w100xh50.html
+END
+resizable_option_aspectRatio_preserve_w50xh100.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_preserve_w50xh100.html
+END
+resizable_ticket_4217.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_ticket_4217.html
+END
+resizable_option_aspectRatio_preserve_maxHeight_150.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_preserve_maxHeight_150.html
+END
+resizable_option_aspectRatio_preserve_w100xh100.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_preserve_w100xh100.html
+END
+resizable_ticket_4199.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_ticket_4199.html
+END
+resizable_option_aspectRatio_preserve_maxWidth_150.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/resizable/resizable_option_aspectRatio_preserve_maxWidth_150.html
+END

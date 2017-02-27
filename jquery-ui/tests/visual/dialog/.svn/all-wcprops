@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog
+END
+dialog_option_modal_false.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog/dialog_option_modal_false.html
+END
+dialog.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog/dialog.html
+END
+dialog_option_modal_true.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog/dialog_option_modal_true.html
+END
+default.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog/default.html
+END
+dialog_option_closeOnEscape_false.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog/dialog_option_closeOnEscape_false.html
+END
+dialog_on_page_with_scrollbars.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog/dialog_on_page_with_scrollbars.html
+END
+dialog_option_closeOnEscape_true.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog/dialog_option_closeOnEscape_true.html
+END
+dialog_on_page_with_large_dom.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3245/branches/labs/spinner/tests/visual/dialog/dialog_on_page_with_large_dom.html
+END

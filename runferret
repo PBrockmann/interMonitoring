@@ -1,0 +1,13 @@
+#!/bin/bash
+
+. /home/webservices/ferret/ferret_paths_bash
+#. /home/webservices/ferret-6.9/ferret_paths
+
+scriptname=$1
+shift 1
+
+ferret -batch ${scriptname}.gif -script ${scriptname}.jnl $@
+
+#sed -e "s/%%EndComments/%%EndComments\n-80 670 translate -90 rotate 1.2 1.2 scale/" $1.ps >| $1.modified.ps
+#gs -q -dNOPAUSE -dBATCH -g800x600 -sDEVICE=png256 -sOUTPUTFILE=$1.png $1.modified.ps -c quit
+

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+rc=$HOME/.ferret
+rc_bak=$HOME/.ferret-bak
+mv $rc $rc_bak
+cat $rc_bak "$1" > $rc
+shift
+xterm -bg DarkSeaGreen -fg black -e "ferret -nojnl"
+rm $rc
+mv $rc_bak $rc
+

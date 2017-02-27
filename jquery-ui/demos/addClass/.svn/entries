@@ -1,0 +1,54 @@
+8
+
+dir
+4027
+http://jquery-ui.googlecode.com/svn/branches/labs/spinner/demos/addClass
+http://jquery-ui.googlecode.com/svn
+
+
+
+2009-03-03T11:01:55.233245Z
+2180
+rdworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a1defee3-d24d-0410-b1e3-3171fe540af7
+
+default.html
+file
+
+
+
+
+2010-09-20T14:09:12.000000Z
+1a48fa06afb6ce11e20dac16adf1d5a5
+2009-03-03T11:01:55.233245Z
+2180
+rdworth
+has-props
+
+index.html
+file
+
+
+
+
+2010-09-20T14:09:12.000000Z
+16f8deb44cca8412dadb2f48655979e1
+2009-02-27T18:05:18.257662Z
+2147
+scottjehl
+has-props
+
