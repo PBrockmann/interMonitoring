@@ -18,27 +18,13 @@ if (isset($_POST['selectscript']))
 <script type="text/javascript" src="jquery-ui/ui/ui.spinner.js"></script>
 <script type="text/javascript" src="jquery-ui/external/mousewheel/jquery.mousewheel.min.js"></script>
 
-<style type='text/css'>
-.ui-spinner {
-    display: inline-block;
-    height: 24px;
-}
-.ui-slider .ui-slider-handle { width: 4px; margin-left: -2px; }
-#slider-range {
-    left: 250px;
-    position: absolute;
-    top: 182px;
-    width: 600px;
-}
-</style>
-
 <script type="text/javascript">
 $(function() {
 	$("#sbx").spinner({min: 1, max: 500, step: 12});
 	$("#slider-range").slider({
 		range: true,
 		min: 1700,
-		max: 10000,
+		max: 2500,
 		step: 10,
 		values: [1800, 2100],
 		slide: function(event, ui) {
@@ -129,7 +115,8 @@ title="Apply a boxcar window (running mean) to smooth the variable">
 <input type="radio" name="hlim" value="user" id="radio2" />
 <label for="radio2">Dates range:</label>
 <input type="text" name="hlimuser" id="hlimuser" style="border:0;font-family: Arial, Helvetica, sans-serif;font-size:100%;" /><BR>
-<div id="slider-range" title="Valid only with time series (See Step 4)"></div>
+<div id="slider-range" style="position:absolute;left:200px;width:250px;color:#F6931F;"
+title="Valid only with time series (See Step 4)"></div>
 
 <BR>
 <p>     
