@@ -168,7 +168,7 @@ fwrite($fh, $cmd."\n");
 $listsimus=array();
 foreach ($_SESSION['simus'] as $s)
 	$listsimus[]=basename($s);
-$cmd="monitoring01_createindex -t 'Monitoring comparison: ".implode(" vs ", $listsimus)."' \${scriptname%%.jnl}_prod";
+$cmd="monitoring01_createindex -t 'Intermonitoring: ".implode(" vs ", $listsimus)."' \${scriptname%%.jnl}_prod";
 fwrite($fh, $cmd."\n\n");
 $cmd="#=====================================";
 fwrite($fh, $cmd."\n");
