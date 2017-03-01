@@ -61,7 +61,7 @@ foreach($_SESSION['allfiles'] as $file) {
         exec("convert -geometry 50%x50% -bordercolor \"#$color\" -border 15x15 $outputdir/images/$basefile.gif $outputdir/images/$basefile.jpg");
         $percent=intval(100./$filesnb*$filescount);
         $status=sprintf("Status: processing file %03d of %03d", $filescount, $filesnb);
-        $title="IGCMG monitoring $percent%";
+        $title="Inter-monitoring $percent%";
         ProgressBar_Update($percent,$status,$title);
         ++$filescount;
 }
