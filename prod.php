@@ -68,7 +68,7 @@ foreach($_SESSION['allfiles'] as $file) {
 
 foreach ($_SESSION['simus'] as $s)
         $listsimus[]=basename($s);
-exec(". /home/webservices/.atlas_env_webservices_bash ; monitoring01_createindex -t 'Monitoring comparison: ".implode(" vs ", $listsimus)."' $outputdir");
+exec(". /home/webservices/.atlas_env_webservices_bash ; monitoring01_createindex -t 'Inter-monitoring: ".implode(" vs ", $listsimus)."' $outputdir");
 
 #====================
 #exec("rm -rf tmp/*");
