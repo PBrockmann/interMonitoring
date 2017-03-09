@@ -8,7 +8,7 @@ $captchaFolder  = 'tmp/';
 //================================================
 // Clean files
 // Filetypes to check (you can also use *.*)
-$fileTypes      = 'fegg*';
+$fileTypes      = 'interMonitoring*';
 
 // Here you can define after how many
 // seconds the files should get deleted

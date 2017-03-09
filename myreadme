@@ -7,5 +7,5 @@ avec
 Options Indexes
 
 Ainsi un
-wget -r -Agif --no-parent -nH --cut-dirs=4 http://webservices.ipsl.jussieu.fr/monitoring/tmp/fegg_plot01_XXXXXX_prod/images/
+wget -r -Agif --no-parent -nH --cut-dirs=4 http://webservices2017.ipsl.jussieu.fr/interMonitoring/tmp/interMonitoring_plot01_XXXXXX_prod/images/
 fonctionne

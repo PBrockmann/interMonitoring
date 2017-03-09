@@ -26,8 +26,7 @@ if (isset($_POST['selectscript']))
 .ui-slider .ui-slider-handle { width: 4px; margin-left: -2px; }
 #slider-range {
     left: 250px;
-    position: absolute;
-    top: 182px;
+    position: relative;
     width: 600px;
 }
 </style>

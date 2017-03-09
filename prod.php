@@ -26,7 +26,7 @@ div#netvibes {
 <BODY>
 
 <div id="message" style="font-family : Arial, Helvetica, sans-serif;"><B>
-Your request is being processed by webservices.ipsl.jussieu.fr<BR>
+Your request is being processed by webservices2017.ipsl.fr<BR>
 The result will be displayed in this window in a while.<BR>
 Stay online ...
 </B></div>
@@ -55,7 +55,7 @@ $filesnb=count($_SESSION['allfiles']);
 $filescount=1;
 foreach($_SESSION['allfiles'] as $file) {
         $basefile=basename($file, ".nc");
-        exec(". /home/webservices/.atlas_env_webservices_bash ; ferret -batch $outputdir/images/$basefile.gif -script $scriptname $file");
+        exec(". /home/webservices/.env_prod.sh ; pyferret -batch $outputdir/images/$basefile.png -script $scriptname $file ; convert $outputdir/images/$basefile.png $outputdir/images/$basefile.gif");
         $filepieces=split('_', $file);
         $color=$colors[$filepieces[0]];
         exec("convert -geometry 50%x50% -bordercolor \"#$color\" -border 15x15 $outputdir/images/$basefile.gif $outputdir/images/$basefile.jpg");
@@ -68,7 +68,7 @@ foreach($_SESSION['allfiles'] as $file) {
 
 foreach ($_SESSION['simus'] as $s)
         $listsimus[]=basename($s);
-exec(". /home/webservices/.atlas_env_webservices_bash ; monitoring01_createindex -t 'Inter-monitoring: ".implode(" vs ", $listsimus)."' $outputdir");
+exec(". /home/webservices/.env_prod.sh ; monitoring01_createindex -t 'Inter-monitoring: ".implode(" vs ", $listsimus)."' $outputdir");
 
 #====================
 #exec("rm -rf tmp/*");
