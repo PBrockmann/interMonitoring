@@ -4,6 +4,15 @@
 <script type="text/javascript" src="js/form_widget_editable_select.js"></script>
 <script type="text/javascript" src="js/tab-view.js"></script>
 
+<style type='text/css'>
+.selectBoxArrow {
+  position: relative;
+  left: -4px;
+  top: 2px;
+}
+
+</style>
+
 </HEAD>
 
 <BODY>
@@ -14,7 +23,8 @@
 Enter <i>ExperimentName</i> directory
 </span>
 <ul><small>
-<li>http://esgf.extra.cea.fr/thredds/catalog/work/YourLogin/TagName/SpaceName/ExperimentName
+<li>http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/YourLogin/TagName/SpaceName/ExperimentName
+<li>http://prodn.idris.fr/thredds/catalog/ipsl_public/YourLogin/TagName/SpaceName/ExperimentName
 <li>http://prodn.idris.fr/thredds/catalog/ipsl_public/YourLogin/TagName/SpaceName/ExperimentName
 </ul>
 </small>
@@ -26,10 +36,10 @@ Enter <i>ExperimentName</i> directory
 <?php
 if (isset($_COOKIE['url'])) {
         print("value=\"".$_COOKIE['url']."\"");
-        print("selectBoxOptions=\"".$_COOKIE['url'].";http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM6/TEST/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM5A/PROD/piControl;http://prodn.idris.fr/thredds/catalog/ipsl_public/rpsl003/IPSLCM5A/DEVT/pdControl\"");
+        print("selectBoxOptions=\"".$_COOKIE['url'].";http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/p86caub/IPSLCM6/DEVT/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM6/TEST/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM5A/PROD/piControl;http://prodn.idris.fr/thredds/catalog/ipsl_public/rpsl003/IPSLCM5A/DEVT/pdControl\"");
 } else {
         print("value=\"http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM6/TEST/piControl\"");
-        print("selectBoxOptions=\"http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM6/TEST/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM5A-MR/PROD/piControl;http://prodn.idris.fr/thredds/catalog/ipsl_public/rpsl003/IPSLCM5A/DEVT/pdControl\"");
+        print("selectBoxOptions=\"http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/p86caub/IPSLCM6/DEVT/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM6/TEST/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM5A-MR/PROD/piControl;http://prodn.idris.fr/thredds/catalog/ipsl_public/rpsl003/IPSLCM5A/DEVT/pdControl\"");
 }
 ?>
 >
