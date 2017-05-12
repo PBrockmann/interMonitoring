@@ -69,6 +69,31 @@ fwrite($fh, $cmd."\n");
 $cmd="\n!============================";
 fwrite($fh, $cmd."\n");
 
+$dateOffsetValuesBase=array_fill(0, $nd , 0);
+// print_r($dateOffsetValuesBase);
+$dateOffsetValuesUser=explode(',', $_POST['dateOffsetValues']);
+$dateOffsetValuesUser=array_filter($dateOffsetValuesUser);
+// print_r($dateOffsetValuesUser);
+$dateOffsetValues=array_replace($dateOffsetValuesBase, $dateOffsetValuesUser);
+// print_r($dateOffsetValues);
+for($i=1;$i<=$nd;$i+=1) {
+	$dateOffsetValue=$dateOffsetValues[$i-1];
+        $cmd="!--->  Date offset: $dateOffsetValue";
+	fwrite($fh, $cmd."\n");
+	$argNumber=sprintf("%02d", $i+2);
+        $cmd="if (\$".$argNumber."%".$dateOffsetValue."|0>FALSE%) then";
+	fwrite($fh, $cmd."\n");
+	$cmd="        let tt = t[gt=`var[d=$i],return=taxis`]";
+	fwrite($fh, $cmd."\n");
+	$cmd="        define axis/t/t0=\"`var[d=$i],return=t0`\"/units=\"`var[d=$i],return=tunits`\"/calendar=\"`var[d=$i],return=cal`\" `var[d=$i],return=taxis` = tt + `".$dateOffsetValue."*365*24*60*60`";
+	fwrite($fh, $cmd."\n");
+        $cmd="endif";
+	fwrite($fh, $cmd."\n");
+}
+
+$cmd="\n!============================";
+fwrite($fh, $cmd."\n");
+
 if ($_POST['hlim'] == "default") {
 	$cmd="plot/nolab/grat=(dash,color=17)/color var[d=1]";
 } else {
