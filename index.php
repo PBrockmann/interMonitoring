@@ -1,5 +1,24 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
         "http://www.w3.org/TR/html4/frameset.dtd">
+
+<?php
+session_save_path("tmp");
+session_start();
+
+// Hermes portal POST simul1, simul2.... to this page
+$i=1;
+$urls=array();
+while (isset($_POST['simul'.$i])) {
+        $urls[]=$_POST['simul'.$i];
+        $i++;
+        }
+
+$_SESSION['urls'] = $urls;
+
+//print_r($_SESSION['urls']);
+
+?>
+
 <HTML>
 <HEAD>
    <TITLE>Inter-monitoring</TITLE>
@@ -40,24 +59,16 @@
   </div>
 
 <!======================================>
-  <div class="dhtmlgoodies_aTab">
-<IFRAME SRC="step04.php" NAME="step04" width="100%" height="100%" frameborder="0">
-</IFRAME>
-
-  </div>
-
-<!======================================>
 </div>
 
 <script type="text/javascript">
 initTabs('dhtmlgoodies_tabView1',
           Array('<a style="background-color:#FF3300">&nbsp;&nbsp;Step 1&nbsp;&nbsp;</a>',
 		'<a style="background-color:#FF6600">&nbsp;&nbsp;Step 2&nbsp;&nbsp;</a>',
-		'<a style="background-color:#FF9900">&nbsp;&nbsp;Step 3&nbsp;&nbsp;</a>',
-		'<a style="background-color:#FFCC00">&nbsp;&nbsp;Step 4&nbsp;&nbsp;</a>'),
+		'<a style="background-color:#FF9900">&nbsp;&nbsp;Step 3&nbsp;&nbsp;</a>'),
           0,
           1200,300,
-          Array(false,false,false,false));
+          Array(false,false,false));
 </script>
 <!======================================>
 
