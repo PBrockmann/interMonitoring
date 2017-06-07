@@ -5,7 +5,7 @@
 session_save_path("tmp");
 session_start();
 
-// Hermes portal POST simul1, simul2.... to this page
+// http POST simul1, simul2.... to this page
 $i=1;
 $urls=array();
 while (isset($_POST['simul'.$i])) {
