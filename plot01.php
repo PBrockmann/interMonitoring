@@ -81,7 +81,7 @@ for($i=1;$i<=$nd;$i+=1) {
         $cmd="!--->  Date offset: $dateOffsetValue";
 	fwrite($fh, $cmd."\n");
 	$argNumber=sprintf("%02d", $i+2);
-        $cmd="if (\$".$argNumber."%".$dateOffsetValue."|0>FALSE%) then";
+        $cmd="if (\$".$argNumber."%".$dateOffsetValue."|0>FALSE|*>TRUE%) then";
 	fwrite($fh, $cmd."\n");
 	$cmd="        let tt = t[gt=`var[d=$i],return=taxis`]";
 	fwrite($fh, $cmd."\n");
