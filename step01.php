@@ -25,7 +25,6 @@ Enter <i>ExperimentName</i> directory
 <ul><small>
 <li>http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/YourLogin/TagName/SpaceName/ExperimentName
 <li>http://prodn.idris.fr/thredds/catalog/ipsl_public/YourLogin/TagName/SpaceName/ExperimentName
-<li>http://prodn.idris.fr/thredds/catalog/ipsl_public/YourLogin/TagName/SpaceName/ExperimentName
 </ul>
 </small>
 </p>
@@ -36,10 +35,10 @@ Enter <i>ExperimentName</i> directory
 <?php
 if (isset($_COOKIE['url'])) {
         print("value=\"".$_COOKIE['url']."\"");
-        print("selectBoxOptions=\"".$_COOKIE['url'].";http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/p86caub/IPSLCM6/DEVT/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM6/TEST/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM5A/PROD/piControl;http://prodn.idris.fr/thredds/catalog/ipsl_public/rpsl003/IPSLCM5A/DEVT/pdControl\"");
+        print("selectBoxOptions=\"".$_COOKIE['url'].";http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/p86caub/IPSLCM6/DEVT/piControl;http://prodn.idris.fr/thredds/catalog/ipsl_public/rpsl003/IPSLCM5A/DEVT/pdControl\"");
 } else {
-        print("value=\"http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM6/TEST/piControl\"");
-        print("selectBoxOptions=\"http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/p86caub/IPSLCM6/DEVT/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM6/TEST/piControl;http://esgf.extra.cea.fr/thredds/catalog/work/p86caub/IPSLCM5A-MR/PROD/piControl;http://prodn.idris.fr/thredds/catalog/ipsl_public/rpsl003/IPSLCM5A/DEVT/pdControl\"");
+        print("value=\"http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/p86caub/IPSLCM6/DEVT/pdControl\"");
+        print("selectBoxOptions=\"http://vesg.ipsl.upmc.fr/thredds/catalog/work_thredds/p86caub/IPSLCM6/DEVT/piControl;http://prodn.idris.fr/thredds/catalog/ipsl_public/rpsl003/IPSLCM5A/DEVT/pdControl\"");
 }
 ?>
 >
