@@ -19,7 +19,7 @@ $cmd="\n!============================";
 fwrite($fh, $cmd."\n");
 $cmd="!Please change the colors or/and legends if needed";
 fwrite($fh, $cmd."\n");
-$cmd='let colors={"3B63E6", "FF4500", "FFE000", "34D314", "FF1392", "FFA400", "775BB4", "F5E6BD", "789BF1", "AFDFE6", "0000C7", "1FB1AA", "B12121", "DEB886", "FFB6C1", "CCCCCC"}';
+$cmd='let colors={"3B63E6", "FF4500", "FFE000", "34D314", "FF1392", "FFA400", "775BB4", "9ACD32", "789BF1", "AFDFE6", "0000C7", "1FB1AA", "B12121", "DEB886", "FFB6C1", "CCCCCC"}';
 fwrite($fh, $cmd."\n");
 $cmd='! Keep black in #1, gray will be at #17';
 fwrite($fh, $cmd."\n");
