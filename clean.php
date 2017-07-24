@@ -8,11 +8,11 @@ $captchaFolder  = 'tmp/';
 //================================================
 // Clean files
 // Filetypes to check (you can also use *.*)
-$fileTypes      = 'fegg*';
+$fileTypes      = 'interMonitoring*';
 
 // Here you can define after how many
 // seconds the files should get deleted
-$expire_time    = 30 * 24 * 60 * 60;
+$expire_time    = 365 * 24 * 60 * 60;
 
 // Find all files of the given file type
 foreach (glob($captchaFolder . $fileTypes) as $Filename) {
@@ -47,7 +47,7 @@ $fileTypes      = 'sess*';
 
 // Here you can define after how many
 // seconds the files should get deleted
-$expire_time    = 30 * 24 * 60 * 60;
+$expire_time    = 365 * 24 * 60 * 60;
 
 // Find all files of the given file type
 foreach (glob($captchaFolder . $fileTypes) as $Filename) {

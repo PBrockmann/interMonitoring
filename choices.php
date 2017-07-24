@@ -25,10 +25,33 @@ if (isset($_POST['selectscript']))
 }
 .ui-slider .ui-slider-handle { width: 4px; margin-left: -2px; }
 #slider-range {
-    left: 250px;
-    position: absolute;
-    top: 182px;
+    top: -20px;
+    left: 230px;
+    position: relative;
     width: 600px;
+}
+#smoothBoxDiv {
+    float: left;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+.ui-spinner {
+    margin-top: 6px;
+}
+#dateOffsetValues {
+    width: 308px;
+    margin-top: 6px;
+}
+#dateOffsetDiv {
+    float: left;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+.ui-slider-horizontal {
+    height: 1em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.15em;
 }
 </style>
 
@@ -110,8 +133,8 @@ print('<BR>');
 ?>
 
 <form name="formchoice" method="post" action="script.php" target="_blank">
-<input type="radio" value="1" checked="checked"/>
-Smoothing box value :
+<input style="float: left;" type="radio" value="1" checked="checked"/>
+<div id="smoothBoxDiv">Smoothing box value:</div>
 <input name="sbx" id="sbx" name="value" type="text" align="middle" style="font-family: Arial, Helvetica, sans-serif;font-size:90%;"
 <?php
 if (isset($_SESSION['sbx']))
@@ -131,8 +154,13 @@ title="Apply a boxcar window (running mean) to smooth the variable">
 
 <input type="radio" name="hlim" value="user" id="radio2" />
 <label for="radio2">Dates range:</label>
-<input type="text" name="hlimuser" id="hlimuser" style="border:0;font-family: Arial, Helvetica, sans-serif;font-size:100%;" /><BR>
+<input type="text" name="hlimuser" id="hlimuser" style="border:0;font-family: Arial, Helvetica, sans-serif;font-size:100%;" />
 <div id="slider-range" title="Valid only with time series (See Step 4)"></div>
+
+<input style="float: left;" type="radio" name="dateOffset" value="default" id="radio3" checked="checked"/>
+<div id="dateOffsetDiv" title="Use this input to translate simulations on their dates">Date offset:</div>
+<input type="text" name="dateOffsetValues" value="0" id="dateOffsetValues"
+title="Indicate year offsets separated by comma (0 or empty for no change). Example: ,100,,150 to translate simu2 of 100 years and simu4 of 150 years" />
 
 <BR>
 <p>     
