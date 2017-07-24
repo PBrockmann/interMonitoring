@@ -130,7 +130,7 @@ foreach ($_SESSION['simus'] as $s){
 	$ExperimentName=$parts[count($parts)-2];
 	$FreeName=$parts[count($parts)-1];
 	# $cmd="go text_legend_put ".$xpos1." ".$xpos2." ".$ypos." \"@AS ".$SpaceName.'/'.$ExperimentName.'/'.$FreeName."\" $ncolor 0.35";
-	$cmd="go text_legend_put2 ".$xpos1." ".$xpos2." ".$ypos." \"@AS ".$SpaceName.'/'.$ExperimentName.'/'.$FreeName."\" /line/thick=3/color=$ncolor 0.3";
+	$cmd="go text_legend_put2 ".$xpos1." ".$xpos2." ".$ypos." \"@AS ".$SpaceName.'/'.$ExperimentName.'/'.$FreeName."\" /line/thick=3/color=$ncolor 0.25";
 	$ypos=$ypos-3;
 	fwrite($fh, $cmd."\n");
         $nd=$nd+1;
