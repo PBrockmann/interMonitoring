@@ -93,6 +93,15 @@ for($i=1;$i<=$nd;$i+=1) {
 
 $cmd="\n!============================";
 fwrite($fh, $cmd."\n");
+$cmd="! Force all variables to be on a GREGORIAN calendar";
+fwrite($fh, $cmd."\n");
+for($i=1;$i<=$nd;$i+=1) {
+	$cmd="set axis/calendar=GREGORIAN `var[d=$i], return=taxis`";
+	fwrite($fh, $cmd."\n");
+}
+
+$cmd="\n!============================";
+fwrite($fh, $cmd."\n");
 
 if ($_POST['hlim'] == "default") {
 	$cmd="plot/nolab/grat=(dash,color=17)/color var[d=1]";
